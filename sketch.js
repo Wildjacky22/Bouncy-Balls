@@ -1,4 +1,4 @@
- var N = 25;
+ var N = 500;
 
 var B1;
 var B2;
@@ -32,28 +32,28 @@ function draw() {
   }
 }
 
-var Ball2 = function(){
+//var Ball2 = function(){
   
-  this.pos2 = createVector( width/2 , height/2 );
+  //this.pos2 = createVector( width/2 , height/2 );
  
-  this.vel = p5.Vector.random2D();
-   this.vel.mult( random( 2 , 4 ) );
+ // this.vel = p5.Vector.random2D();
+   //this.vel.mult( random( 2 , 4 ) );
   
-  this.evolveDraw =function() {
-    this.pos2.add( this.vel );
+  //this.evolveDraw =function() {
+    //this.pos2.add( this.vel );
   
-    if ( this.pos2.x >= width || this.pos2.x <= 0 ){
-      this.vel.x *=-1;
-    }
-    if ( this.pos2.y >= height || this.pos2.y <= 0 ){
-      this.vel.y *=-1;
-    }
+   // if ( this.pos2.x >= width || this.pos2.x <= 0 ){
+  //    this.vel.x *=-1;
+  //  }
+   // if ( this.pos2.y >= height || this.pos2.y <= 0 ){
+   //   this.vel.y *=-1;
+  //  }
 
-    fill( 255 , 255 , 255 );
-    ellipse( this.pos2.x , this.pos2.y , 20 );
+  //  fill( 255 , 255 , 255 );
+   // ellipse( this.pos2.x , this.pos2.y , 20 );
    
-  };
-};
+// };
+//};
 
 
 var Ball = function(){
@@ -62,7 +62,7 @@ var Ball = function(){
   this.pos2 = createVector( width/2 , height/2 );
  
   this.v = p5.Vector.random2D();
-   this.v.mult( random( 1 , 3 ) );
+   this.v.mult( random( 3 , 3 ) );
   
   this.evolveDraw =function() {
     this.pos.add( this.v );

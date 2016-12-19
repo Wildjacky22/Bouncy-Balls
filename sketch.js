@@ -37,7 +37,7 @@ var Ball2 = function(){
   this.pos2 = createVector( width/2 , height/2 );
  
   this.vel = p5.Vector.random2D();
-   this.vel.mult( random( 1 , 3 ) );
+   this.vel.mult( random( 2 , 4 ) );
   
   this.evolveDraw =function() {
     this.pos2.add( this.vel );

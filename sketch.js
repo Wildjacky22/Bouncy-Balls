@@ -18,7 +18,7 @@ function setup() {
   
  background( 0 , 0 , 0 );
  
-  stroke( 255 , 255 , 255 );
+  stroke( 100 , 100 , 255 );
   //noStroke();
 }
 
@@ -62,7 +62,7 @@ var Ball = function(){
   this.pos2 = createVector( width/2 , height/2 );
  
   this.v = p5.Vector.random2D();
-   this.v.mult( random( 3 , 3 ) );
+   this.v.mult( random( 7 , 7 ) );
   
   this.evolveDraw =function() {
     this.pos.add( this.v );

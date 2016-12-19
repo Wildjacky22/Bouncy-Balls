@@ -36,7 +36,7 @@ function draw() {
 var Ball = function(){
   this.pos = createVector( width/2 , height/2 );
   
-  this.pos2 = createVector( width/2.5 , height/2.5 );
+  this.pos2 = createVector( width/2 , height/2 );
  
   this.v = p5.Vector.random2D();
    this.v.mult( random( 1 , 3 ) );

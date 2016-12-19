@@ -75,7 +75,7 @@ var Ball = function(){
     }
     
    
-    fill( 127.5 , 127.5 , 127.5 );
+    fill( 56 , 66 , 255 );
     ellipse( this.pos.x , this.pos.y , 20 );
    
     

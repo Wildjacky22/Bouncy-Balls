@@ -18,7 +18,7 @@ function setup() {
   
  background( 127.5 , 127.5 , 127.5 );
  
-  stroke( 255 , 255 , 255 );
+  stroke( 127.5 , 127.5 , 127.5 );
   //noStroke();
 }
 
@@ -36,6 +36,8 @@ function draw() {
 var Ball = function(){
   this.pos = createVector( width/2 , height/2 );
   
+  this.pos2 = createVector( width/2.5 , height/2.5 );
+ 
   this.v = p5.Vector.random2D();
    this.v.mult( random( 1 , 3 ) );
   
@@ -54,7 +56,7 @@ var Ball = function(){
     ellipse( this.pos.x , this.pos.y , 20 );
    
     fill( 255 , 255 , 255 );
-    ellipse( this.pos.x , this.pos.y , 20 );
+    ellipse( this.pos2.x , this.pos2.y , 20 );
     
   };
   

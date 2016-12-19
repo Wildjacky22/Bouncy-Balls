@@ -16,7 +16,7 @@ function setup() {
 
     }
   
- background( 0 , 0 , 0 );
+ background( 127.5 , 127.5 , 127.5 );
  
   stroke( 255 , 255 , 255 );
   //noStroke();
@@ -49,13 +49,11 @@ var Ball = function(){
       this.v.y *=-1;
     }
     
-    var r=( 0 || 255 );
-    var g=( 0 || 255 );
-    var b=( 0 || 255 );
-    
-    
-    
+   
     fill( 0 , 0 , 0 );
+    ellipse( this.pos.x , this.pos.y , 20 );
+   
+    fill( 255 , 255 , 255 );
     ellipse( this.pos.x , this.pos.y , 20 );
     
   };

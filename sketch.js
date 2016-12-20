@@ -16,7 +16,7 @@ function setup() {
 
     }
   
- background( 0 , 0 , 0 );
+ background( 127.5 , 127.5 , 127.5 );
  
   var r = random( 0 || 255);
   var g = random( 0 || 255);

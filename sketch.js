@@ -16,11 +16,11 @@ function setup() {
 
     }
   
- background( 127.5 , 127.5 , 127.5 );
+ background( r , g , b );
  
-  var r = random( 0 || 255);
-  var g = random( 0 || 255);
-  var b = random( 0 || 255);
+  var r = random( 0 , 255);
+  var g = random( 0 , 255);
+  var b = random( 0 , 255);
  
   stroke( r , g , b );
   //noStroke();
@@ -78,9 +78,9 @@ var Ball = function(){
       this.v.y *=-1;
     }
     
-  var r = random( 0 || 255);
-  var g = random( 0 || 255);
-  var b = random( 0 || 255);
+  var r = random( 0 , 255);
+  var g = random( 0 , 255);
+  var b = random( 0 , 255);
 
    
     fill( r , g , b );

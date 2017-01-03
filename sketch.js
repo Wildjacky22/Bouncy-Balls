@@ -16,11 +16,13 @@ function setup() {
 
     }
   
- background( r , g , b );
+
  
   var r = random( 0 || 255);
   var g = random( 0 || 255);
   var b = random( 0 || 255);
+ 
+  background( r , g , b );
  
   stroke( r , g , b );
   //noStroke();

@@ -36,9 +36,9 @@ function setup() {
   //  for( i = 0 ; i < N ; i++ ) {
  
    
-   stroke( c3 );
+  // stroke( c3 );
    }
-  }
+  
  
 }
 

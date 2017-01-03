@@ -28,8 +28,8 @@ function setup() {
 //  var M = round(windowHeight/dd);
   //var N = round(windowWidth/dd);
        
-    dx = windowWidth/N;
-    dy = windowHeight/M;
+    //dx = windowWidth/N;
+    //dy = windowHeight/M;
 
 
   for( a = 0 ; a < M ; a++ ){

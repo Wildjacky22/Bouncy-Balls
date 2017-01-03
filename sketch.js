@@ -25,8 +25,8 @@ function setup() {
   stroke( r , g , b );
   //noStroke();
  
-  var M = round(windowHeight/dd);
-  var N = round(windowWidth/dd);
+//  var M = round(windowHeight/dd);
+  //var N = round(windowWidth/dd);
        
     dx = windowWidth/N;
     dy = windowHeight/M;

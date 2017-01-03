@@ -3,11 +3,6 @@
 var B1;
 var B2;
 
-function setup() {
- createCanvas( windowWidth , windowHeight );
-
-
-
 
 function setup() {
   createCanvas( windowWidth , windowHeight );

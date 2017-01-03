@@ -32,8 +32,8 @@ function setup() {
     //dy = windowHeight/M;
 
 
-  for( a = 0 ; a < M ; a++ ){
-    for( i = 0 ; i < N ; i++ ) {
+//  for( a = 0 ; a < M ; a++ ){
+  //  for( i = 0 ; i < N ; i++ ) {
  
    
    stroke( c3 );

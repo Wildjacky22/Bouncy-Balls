@@ -37,8 +37,8 @@ function setup() {
  
    
   // stroke( c3 );
-   }
-  
+//   }
+  // }
  
 }
 

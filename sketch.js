@@ -100,7 +100,7 @@ var Ball = function(){
   var b = random( 0 || 255);
 
    
-    fill( r , g , b );
+    fill( 0|||255 , 0||255 , 0||255 );
     ellipse( this.pos.x , this.pos.y , 20 );
    
     

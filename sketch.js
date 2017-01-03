@@ -106,6 +106,7 @@ var Ball = function(){
   
 };
 
+}
 
 function keyTyped() {
   if( key === 's' ) {

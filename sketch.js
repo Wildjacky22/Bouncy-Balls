@@ -1,4 +1,4 @@
- var N = 100;
+var N = 100;
 
 var B1;
 var B2;
@@ -25,22 +25,6 @@ function setup() {
   background( r , g , b );
  
   stroke( r , g , b );
-  //noStroke();
- 
-//  var M = round(windowHeight/dd);
-  //var N = round(windowWidth/dd);
-       
-    //dx = windowWidth/N;
-    //dy = windowHeight/M;
-
-
-//  for( a = 0 ; a < M ; a++ ){
-  //  for( i = 0 ; i < N ; i++ ) {
- 
-   
-  // stroke( c3 );
-//   }
-  // }
  
 }
 
@@ -52,30 +36,6 @@ function draw() {
    
   }
 }
-
-//var Ball2 = function(){
-  
-  //this.pos2 = createVector( width/2 , height/2 );
- 
- // this.vel = p5.Vector.random2D();
-   //this.vel.mult( random( 2 , 4 ) );
-  
-  //this.evolveDraw =function() {
-    //this.pos2.add( this.vel );
-  
-   // if ( this.pos2.x >= width || this.pos2.x <= 0 ){
-  //    this.vel.x *=-1;
-  //  }
-   // if ( this.pos2.y >= height || this.pos2.y <= 0 ){
-   //   this.vel.y *=-1;
-  //  }
-
-  //  fill( 255 , 255 , 255 );
-   // ellipse( this.pos2.x , this.pos2.y , 20 );
-   
-// };
-//};
-
 
 var Ball = function(){
   this.pos = createVector( width/2 , height/2 );
